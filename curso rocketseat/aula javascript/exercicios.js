@@ -15,7 +15,7 @@ console.log(typeof weight)
     name: "junior",
     age: 34,
     stars:3.6,
-    issubscribed: true
+    issubscribed: false
 }
 */
     name = "junior"1
