@@ -18,7 +18,7 @@ const sum = function(numero1,numero2){
 
 let numeroUm = 30
 let numeroDois = 20
-
+let idade = 77
 console.log(`o numero 1 é ${numeroUm}`)
 console.log(`o numero 1 é ${numeroDois}`)
 
