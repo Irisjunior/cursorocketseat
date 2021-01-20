@@ -24,3 +24,4 @@ console.log(`o numero 1 é ${numeroDois}`)
 
 console.log(`a soma dos numeros é: ${sum(numeroUm,numeroDois)}`)
 
+// arrow function
