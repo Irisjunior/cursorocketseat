@@ -6,14 +6,30 @@
 
 */
  
-let celsius = "30.0"
+//transform('50F')
 
-function conversao(let){
-    let * (9/5) + 32
-    return valor
+function transformDegree (degree){
+    const celsiusExists = degree.toUpperCase().includes('C')
+    const fahrenheitExists = degree.toUpperCase().includes('F')
+
+    if(!celsiusExists && !fahrenheitExists){
+        throw new Error('Grau nao identificado')
+    }
+
+    // fluxo ideal, F para C
+    let updatedDegree = Number(degree.toUpperCase().replace("F",""));
+    let formula =(fahrenheit) => (fahrenheit - 32) * 5/9
+    degreesign = 'C'
+
+    return formula(updatedDegree) + degreesign
+
+    try {
+        console.log(transformDegree)
+        transformDegree('50F')
+       
+    } catch (error) {
+        console.log(error)
+    }
 }
 
-conversao(celsius)
-
-
-console.log(30*(9/5)+32)
+console.log('oi')
